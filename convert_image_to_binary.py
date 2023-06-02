@@ -103,6 +103,7 @@ def convert_image_to_binary(image_path):
                     file.write('1')
                 else:  # 黒
                     file.write('0')
+                file.write(" ")
             file.write('\n')
 
     return output_file_path
